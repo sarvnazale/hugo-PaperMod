@@ -1,0 +1,22 @@
+/* Style for the accordion */
+.accordion {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the title */
+  .accordion-title {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  /* Style for the content (hidden by default) */
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  /* Style for the content when it's open */
+  .accordion.open .accordion-content {
+    display: block;
+  }
