@@ -1,5 +1,6 @@
 /* Style for the accordion */
 .accordion {
+    border: 1px solid #ccc;
     margin-bottom: 10px;
   }
   
